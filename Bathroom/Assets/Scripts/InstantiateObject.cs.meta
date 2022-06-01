@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: f50ef3bc7ef6c5a47b5fe66a04e7c61f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - toilet: {fileID: 490334869284212867, guid: b825b284baa616a4fa0cfa23f3cc3d95, type: 3}
+  - douche: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
