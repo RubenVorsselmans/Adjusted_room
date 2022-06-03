@@ -24,6 +24,7 @@ public class MoveObjects : MonoBehaviour
         {
             body = transform.GetChild(i).gameObject.AddComponent(typeof(Rigidbody)) as Rigidbody;
             body.useGravity = false;
+            body.isKinematic = true;
             body.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
             //_collider = transform.GetChild(i).gameObject.AddComponent(typeof(BoxCollider)) as BoxCollider;
             grab = transform.GetChild(i).gameObject.AddComponent(typeof(XRGrabInteractable)) as XRGrabInteractable;
@@ -82,7 +83,6 @@ public class MoveObjects : MonoBehaviour
         menuScreen.transform.position = (vHeadPos + vGazeDir * 1.0f) + new Vector3(0.0f, -.40f, 0.0f);
         Vector3 vRot = Camera.main.transform.eulerAngles; vRot.z = 0;
         menuScreen.transform.eulerAngles = vRot;
-        Debug.Log("Test");
     }
     public void hideUi()
     {

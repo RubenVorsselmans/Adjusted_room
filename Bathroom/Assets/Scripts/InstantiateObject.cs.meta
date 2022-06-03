@@ -5,7 +5,19 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - toilet: {fileID: 490334869284212867, guid: b825b284baa616a4fa0cfa23f3cc3d95, type: 3}
-  - douche: {instanceID: 0}
+  - shower: {fileID: 7104492958798760005, guid: 95ab13dd12e9ea347993345f2bcec66d, type: 3}
+  - toiletBar1: {instanceID: 0}
+  - toiletBar2: {instanceID: 0}
+  - mirror: {instanceID: 0}
+  - sink: {instanceID: 0}
+  - cabinet: {instanceID: 0}
+  - bed: {instanceID: 0}
+  - oven: {instanceID: 0}
+  - microwave: {instanceID: 0}
+  - fridge: {instanceID: 0}
+  - washingMachine: {instanceID: 0}
+  - bin: {instanceID: 0}
+  - spawn: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
